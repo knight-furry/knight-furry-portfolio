@@ -251,14 +251,14 @@
                 </div>
                 <div class="contact__container">
                 <form class="contactf raised" action="https://formspree.io/f/moqyyrwr" method="POST">
-                    <label for="name-input">Name: </label>
-                    <input type="text" id="name-input">
+                    <label for="Name">Name: </label>
+                    <input type="text" id="name-input" name="input-name" required>
                     <br><br>
-                    <label for="phone-input">Phone: </label>
-                    <input type="tel" id="phone-input">
+                    <label for="Phone">Phone: </label>
+                    <input type="tel" id="phone-input" name="phone-input" required>
                     <br><br>
-                    <label for="email-input">Email: </label>
-                    <input type="email" id="email-input">
+                    <label for="Email-id">Email: </label>
+                    <input type="email" id="email-input" name="email-input" required>
                     <br><br>
                     <label for="fixing-speed">How urgent it is?</label>
                     <br>
@@ -268,7 +268,7 @@
                     <label for="input-extra">More info: </label>
                     <br>
                     <textarea name="input-extra" id="input-extra" cols="35" rows="10"
-                        placeholder="Tell me how can I help you."></textarea>
+                        placeholder="Tell me how can I help you." required></textarea>
                     <br><br>
                     <input type="submit" value="Submit">
                 </form>
