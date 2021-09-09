@@ -1,3 +1,5 @@
+alert("If u r mobile user then ENABLE the Desktop site !!!");
+
 $(document).ready(function() {
     $('a[href*=#]').bind('click', function(e) {
             e.preventDefault(); 
