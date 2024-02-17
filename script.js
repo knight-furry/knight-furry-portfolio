@@ -42,12 +42,3 @@ if (x.style.display === "none") {
     x.style.display = "none";
 }
 }
-
-function readmore3() {
-var x = document.getElementById("more3");
-if (x.style.display === "none") {
-    x.style.display = "flex";
-} else {
-    x.style.display = "none";
-}
-}
