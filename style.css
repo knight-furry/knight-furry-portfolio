@@ -7,6 +7,7 @@
     --color-dark-gray: #434242; /* rgb(67, 66, 66) */
     --color-white: #fff;
     --color-orange: #EB5424;
+    --color-purple: #ba03fc;
 }
 
 * {
@@ -53,7 +54,7 @@ header p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: var(--color-orange);
+    background-color: var(--color-purple);
     text-align: right;
     flex-grow: 1;
     overflow: hidden;
@@ -71,7 +72,7 @@ header p {
 
         &.active {
             background-color: rgba(0, 0, 0, 0.1);
-            color: var(--color-orange);
+            color: var(--color-purple);
         }
     }
 }
@@ -119,7 +120,7 @@ nav .main-nav ul li.active a {
 .active,
 .main-nav__link:hover {
     background-color: #DFDFDF !important;
-    color: var(--color-orange) !important;
+    color: var(--color-purple) !important;
 }
 
 .main-nav li a:hover::after {
@@ -137,7 +138,7 @@ nav img {
 
 #banner {
     width: 100%;
-    height: 95rem;
+    height: 100%;
     padding: 10rem 0;
     background-image: url(./img/home-bg.jpg);
     background-repeat: no-repeat;
@@ -165,7 +166,7 @@ nav img {
 .banner__content h2 {
     font-size: 3.5rem;
     margin-bottom: 2rem;
-    color: var(--color-orange);
+    color: var(--color-purple);
 }
 
 .banner__content p {
@@ -213,7 +214,7 @@ nav img {
 .skill__name {
     font-size: 3rem;
     margin-bottom: 3rem;
-    color: var(--color-orange);
+    color: var(--color-purple);
 }
 
 .skill:not(:last-child) {
@@ -233,7 +234,7 @@ nav img {
 }
 
 .heading__title span {
-    color: var(--color-orange);
+    color: var(--color-purple);
 }
 
 .heading__title::after {
@@ -304,7 +305,7 @@ p {
 }
 
 .title span {
-    color: var(--color-orange);
+    color: var(--color-purple);
 }
 
 #portfolio {
@@ -586,7 +587,7 @@ input[type="submit"] {
 footer {
     color: var(--color-white);
     padding: 2rem 0;
-    background-color: var(--color-orange);
+    background-color: var(--color-purple);
 }
 
 .row {
