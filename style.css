@@ -266,6 +266,7 @@ p {
 #resume {
     text-align: center;
     padding: 8rem 0 8rem 0;
+    background-image: radial-gradient(#ffffff, #d7d7d7)
 }
 
 .resume__container {
