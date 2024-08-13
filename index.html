@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Head START -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dattatraya Katkhade</title>
+    <title>Dattatraya Katkhade - Portfolio</title>
     <link rel="stylesheet" href="./style.css" type="text/css" />
     <script src="https://kit.fontawesome.com/dc4cfd0094.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
-
+    <script src="./script.js" defer></script>
 </head>
-<!-- Head END -->
-<!-- Body START -->
+
 <body>
     <!-- Header START -->
     <header id="home">
@@ -29,17 +26,17 @@
         </nav>
     </header>
     <!-- Header END -->
+
     <!-- Main START -->
     <main>
         <!-- Banner START -->
         <section class="page-section hero" id="banner">
             <div class="container">
                 <div class="banner__content">
-                    <img src="./img/Passport_updated.jpg" alt="This is me" width="200" class="img" style="vertical-align:middle">
+                    <img src="./img/Passport_updated.jpg" alt="Dattatraya Katkhade" width="200" class="img" />
                     <h1>Dattatraya Katkhade</h1>
                     <h2>Senior Software Engineer</h2>
-                    <p>I am an <strong>Aras Developer.</strong><br>
-                    </p>
+                    <p>I am an <strong>Aras Developer.</strong></p>
                 </div>
             </div>
         </section>
@@ -54,33 +51,22 @@
             </div>
             <div class="portfolio__container">
 
-                <!-- Portfolio 1 -->
+                <!-- Portfolio Item 1 -->
                 <figure class="portfolio__picture">
-                    <img src="./img/wizard.jpg" alt="AppStudio Wizard" class="portfolio__img">
-                    <div class="read_more">
-                        <h3 onclick="readmore1()">Aras AppStudio<br><br>Read more...</h3>
-                    </div>                    
-                </figure>
-                <div id="more1" style="display: none;">
-                    <div class="aboutp">
-                        <h3>Requests:</h3>
-                        <p>Suite of UI and backend components built as add-on to Aras Innovator. No code solution to generate modern, complex, responsive, mobile friendly UI.
-                            AppStudio comes with TemplateStudio to create template for an ItemType and Wizard to show details of the Item at runtime.
-Worksheet control with Excel-like editing within Innovator.
-Automates creation of MS Word and PDF documents based on selections through wizard pages.
-TechnicalDataPackage (TDP) Export and Import for offline usage and changes.
-Role based Type specific and global Dashboards.
-Works with Innovator version 12SP5 onwards in both on-premises and enterprise deployments.
-                        </p>
+                    <img src="./img/wizard.jpg" alt="AppStudio Wizard" class="portfolio__img" />
+                    <div class="read_more" onclick="readmore1()">
+                        <h3>Aras AppStudio<br /><span>Read more...</span></h3>
                     </div>
-
-                    <div class="aboutp">
+                </figure>
+                <div id="more1" class="portfolio-details" style="display: none;">
+                    <h3>Requests:</h3>
+                    <p>Suite of UI and backend components built as add-on to Aras Innovator. No code solution to generate modern, complex, responsive, mobile-friendly UI.
+                    </p>
                     <h3>Project Objectives:</h3>
                     <ul>
                         <li>Build a TypoMeter program using JavaScript</li>
                         <li>Develop locally on your computer</li>
                     </ul>
-                    <br>
                     <h3>Prerequisites:</h3>
                     <ul>
                         <li>HTML/CSS</li>
@@ -88,64 +74,44 @@ Works with Innovator version 12SP5 onwards in both on-premises and enterprise de
                         <li>PHP</li>
                         <li>MySQL</li>
                     </ul>
-                    </div>
-
                     <div class="aboutlinks">
-                    <h3>GitHub Profile: </h3>
-                    <p><a href="https://github.com/knight-furry">https://github.com/knight-furry</a></p>
-                    <br><br>
-                    <h3>GitHub Project files: </h3>
-                    <p><a href="https://github.com/knight-furry/Typo-meter.github.io">https://github.com/knight-furry/Typo-meter.github.io</a>
-                    </p>                    
-                    <br><br>
-                    <h3>GitHub Pages Project: </h3>
-                    <p><a
-                            href="https://knight-furry.github.io/Typo-meter.github.io/">https://knight-furry.github.io/Typo-meter.github.io//</a>
-                    </p>
+                        <h3>GitHub Profile:</h3>
+                        <p><a href="https://github.com/knight-furry" target="_blank">https://github.com/knight-furry</a></p>
+                        <h3>GitHub Project Files:</h3>
+                        <p><a href="https://github.com/knight-furry/Typo-meter.github.io" target="_blank">https://github.com/knight-furry/Typo-meter.github.io</a></p>
+                        <h3>GitHub Pages Project:</h3>
+                        <p><a href="https://knight-furry.github.io/Typo-meter.github.io/" target="_blank">https://knight-furry.github.io/Typo-meter.github.io/</a></p>
                     </div>
                 </div>
-                <!-- Portfolio 2 -->
+
+                <!-- Portfolio Item 2 -->
                 <figure class="portfolio__picture">
-                    <img src="./img/dmf-detailed-dataflow.jpg" alt="Data Migrations" class="portfolio__img">
-                    <div class="read_more">
-                        <h3 onclick="readmore2()">typoMeter Standalon application<br><br>Read more...</h3>
+                    <img src="./img/dmf-detailed-dataflow.jpg" alt="Data Migrations" class="portfolio__img" />
+                    <div class="read_more" onclick="readmore2()">
+                        <h3>TypoMeter Standalone Application<br /><span>Read more...</span></h3>
                     </div>
                 </figure>
-                <div id="more2" style="display: none;">
-                    <div class="aboutp">
-                        <h3>Requests:</h3>
-                        <p>Data migration from Enovia PLM to Aras PLM for GE.
-                        </p>
-                    </div>
-
-                    <div class="aboutp">
-                        <h3>Project Objectives:</h3>
-                        <ul>
-                            <li>Build a Desktop application to increase typing Speed</li>
-                            <li>Develop locally on your computer</li>
-                        </ul>
-                        <br>
-                        <h3>Prerequisites:</h3>
-                        <ul>
-                            <li>Java</li>
-                            <li>MySQL</li>
-                        </ul>
-                    </div>
-
+                <div id="more2" class="portfolio-details" style="display: none;">
+                    <h3>Requests:</h3>
+                    <p>Data migration from Enovia PLM to Aras PLM for GE.</p>
+                    <h3>Project Objectives:</h3>
+                    <ul>
+                        <li>Build a Desktop application to increase typing speed</li>
+                        <li>Develop locally on your computer</li>
+                    </ul>
+                    <h3>Prerequisites:</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>MySQL</li>
+                    </ul>
                     <div class="aboutlinks">
-                        <h3>GitHub Profile: </h3>
-                        <p><a href="https://github.com/knight-furry">https://github.com/knight-furry</a></p>
-                        <br><br>
-                        <h3>GitHub Project files: </h3>
-                        <p><a
-                                href="https://github.com/knight-furry/Typometer-Java-application">https://github.com/knight-furry/Typometer-Java-application</a>
-                        </p>
-                        <br><br>
-                        <h3>View Project: </h3>
-                        <p>
-                        </p>
+                        <h3>GitHub Profile:</h3>
+                        <p><a href="https://github.com/knight-furry" target="_blank">https://github.com/knight-furry</a></p>
+                        <h3>GitHub Project Files:</h3>
+                        <p><a href="https://github.com/knight-furry/Typometer-Java-application" target="_blank">https://github.com/knight-furry/Typometer-Java-application</a></p>
                     </div>
-                </div> 
+                </div>
+
             </div>
         </section>
         <!-- Portfolio END -->
@@ -154,20 +120,20 @@ Works with Innovator version 12SP5 onwards in both on-premises and enterprise de
         <section class="page-section" id="resume">
             <div class="container">
                 <div class="heading">
-                    <h2 class="heading__title">My <span>resume</span></h2>
+                    <h2 class="heading__title">My <span>Resume</span></h2>
                 </div>
 
                 <div class="resume__container">
                     <div class="resume__profile raised">
                         <h2 class="title"><span>Profile</span></h2>
-                        <p><span class="tm-info-label">Name</span> Dattatraya Katkhade</p>
-                        <p><span class="tm-info-label">Birthday</span> December 24, 1998</p>
-                        <p><span class="tm-info-label">Address</span> Beed, Maharashtra, India</p>
-                        <p><span class="tm-info-label">Phone</span> +91 9527102081 </p>
-                        <p><span class="tm-info-label">Email</span> dattakatkhade1191@gmail.com</p>
-                        <p><span class="tm-info-label">LinkedIn</span> <a href="https://linkedin.com/in/knight-furry"
-                                class="tm-red-text">Dattatraya Katkhade</a></p>
+                        <p><strong>Name:</strong> Dattatraya Katkhade</p>
+                        <p><strong>Birthday:</strong> December 24, 1998</p>
+                        <p><strong>Address:</strong> Beed, Maharashtra, India</p>
+                        <p><strong>Phone:</strong> +91 9527102081</p>
+                        <p><strong>Email:</strong> <a href="mailto:dattakatkhade1191@gmail.com">dattakatkhade1191@gmail.com</a></p>
+                        <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/knight-furry" class="tm-red-text" target="_blank">Dattatraya Katkhade</a></p>
                     </div>
+
                     <div class="resume__skills raised">
                         <h2 class="title">Technical <span>Skills</span></h2>
                         <h4 class="tm-progress-label">Aras Configurations <small class="progress-percent-small">80%</small>
@@ -206,10 +172,10 @@ Works with Innovator version 12SP5 onwards in both on-premises and enterprise de
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="heading">
-                    <h2 class="heading__title"><span>contact</span> me</h2>
+                    <h2 class="heading__title"><span>Contact</span> Me</h2>
                 </div>
                 <div class="contact__container">
-                <form class="contactf raised" action="https://formspree.io/f/moqyyrwr" method="POST">
+                    <form class="contactf raised" action="https://formspree.io/f/moqyyrwr" method="POST">
                     <label for="Name">Name: </label>
                     <input type="text" id="name-input" name="input-name" required>
                     <br><br>
@@ -231,30 +197,31 @@ Works with Innovator version 12SP5 onwards in both on-premises and enterprise de
                     <br><br>
                     <input type="submit" value="Submit">
                 </form>
-
                 </div>
             </div>
         </section>
         <!-- Contact END -->
     </main>
     <!-- Main END -->
+
     <!-- Footer START -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="center">
-                    <p>Dattatraya Katkhade</p>
-                    <p>Email: dattakatkhade1191@gmail.com</p>
-                    <p>Phone: +91 8308272726</p>
+                    <p>&copy; 2024 Dattatraya Katkhade</p>
+                    <p>Email: DattaKatkhade1191@gmail.com</p>
+                    <p>Phone: +91 9527102081</p>
                 </div>
                 <ul class="social-link">
-                    <li><a href="https://www.linkedin.com/in/knight-furry/"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://github.com/knight-furry"><i class="fab fa-github"></i></a></li>
-                    <li><a href="https://www.instagram.com/datta.katkhade"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/knight-furry/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/knight-furry" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.instagram.com/datta.katkhade" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </div>
         </div>
     </footer>
     <!-- Footer END -->
 </body>
+
 </html>
